@@ -13,7 +13,7 @@ module SlackCalulationBot
         if result && result.length > 0
           client.say(channel: data.channel, text: result)
         else
-          client.say(channel: data.channel, text: 'Please type your operation!')
+          client.say(channel: data.channel, text: "Sorry, I didn't understand that. I only add numbers in this format. eg: 5+6 or 6+3")
         end
       rescue StandardError => e
         client.say(channel: data.channel, text: "Too bad, #{e.message}.")
