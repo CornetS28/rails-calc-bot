@@ -20,8 +20,8 @@ This a 100% Ruby application
 
 ## Requirements
 
-To run this application, you will need Ruby installed. No database needed.
-You will also need to create a Slack account (if you do not have one). Assuming, you already have an account, you will need to go to link (http://slack.com/services/new/bot) to generate a token. Once you're on the page:
+To run this application, you will need Ruby installed. No database is needed.
+You will also need to create a Slack account (if you do not have one). Assuming, you already have an account, you will need to go to the link (http://slack.com/services/new/bot) to generate a token. Once you're on the page:
  1. Create a username
  2. Click on the Green Button that says "Add Bot Integration"
  3. Save the generated API token, and
@@ -47,12 +47,12 @@ To run the app by typing this command:
 
 ``` rackup ```
 
-Once done, you should see infomation in your terminal telling that the app is up running.
+Once done, you should see information in your terminal telling you that the app is up running.
 
-Now go to Slack (assuming your logged in). You should now see the username you've created. From there, 
+Now go to Slack (assuming you logged in). You should now see the username you've created. From there, 
 - you can type ```hi``` and the bot will respond properly
-- you can type ```help``` for more infomation
-- you can type any math operation. For examle: ```=4-3``` and it shall respond back ```1```
+- you can type ```help``` for more information
+- you can type any math operation. For example: ```=4-3``` and it shall respond ```1```
 
 
 
