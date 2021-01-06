@@ -1,0 +1,5 @@
+require 'slack-ruby-bot'
+require 'dentaku'
+require 'calculator_ruby/commands/calculate'
+require 'calculator_ruby/commands/help'
+require 'calculator_ruby/bot'
